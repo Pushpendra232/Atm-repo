@@ -27,7 +27,7 @@ public class AtmController {
 		return atmPojo;
 	}
 
-// method for deposit amount 
+// method for deposit amount  teste shgregheh
 	@PostMapping (value ="/Atmd/{acno}/{amt}")
 	Optional<AtmPojo> deposit (@PathVariable ("acno") int acno,@PathVariable("amt") int amt)
 	{
